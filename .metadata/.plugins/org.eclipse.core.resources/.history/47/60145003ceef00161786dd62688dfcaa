@@ -1,0 +1,26 @@
+package youDoIt;
+import java.util.Scanner;
+/**
+ * @author AM312792
+ *
+ */
+public class AssignVolunteer 
+{
+
+	public static void main(String[] args) 
+	{
+		int donationType;
+		String volunteer;
+		final int CLOTHING_CODE = 1;
+		final int OTHER_CODE = 2;
+		final String CLOTHING_PRICER = "Regina";
+		final String OTHER_PRICER = "Marco";
+		
+		Scanner input = new Scanner(System.in);
+		System.out.println("What type of donation is that?");
+		System.out.print("Enter " + CLOTHING_CODE + " fir clothing, " + OTHER_CODE + " for anything else... ");
+		donationType = input.nextInt();
+
+	}
+
+}

@@ -1,0 +1,16 @@
+package switches;
+
+/**
+ * @author AM312792
+ *Feb 13th 2017
+ */
+public class switchesDayofWeek 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

@@ -1,0 +1,69 @@
+package randomGuessMatch;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author am312792
+ *
+ */
+public class RandomGuess2
+{
+
+	public static void main(String[] args) 
+	{
+		final int LOW = 0;
+		final int HIGH = 9;
+		String msg;
+		int result;
+		int resultTwo;
+		int resultThree;
+		int userGuess;
+		int userGuess2;
+		int userGuess3;
+		
+		result = LOW + (int)(Math.random() * HIGH);
+		resultTwo = LOW + (int)(Math.random() * HIGH);
+		resultThree = LOW + (int)(Math.random() * HIGH);
+		
+		userGuess = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose a number between " + LOW + " and " + HIGH));
+		userGuess2 = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose a number between " + LOW + " and " + HIGH));
+		userGuess3 = Integer.parseInt(JOptionPane.showInputDialog(null, "Choose  number between " + LOW + " and " + HIGH));
+		
+		if(userGuess == result && userGuess2 == resultTwo)
+		{
+			msg ="\n You got two matches!";
+		}
+		
+		if(userGuess == result)
+			msg = "\n Your Guess was right";
+			else
+				if(userGuess < result)
+					msg = "\n Your Guess was to low";
+				else
+					msg = "\n Your Guess was too high";
+		
+	JOptionPane.showMessageDialog(null, "The numbers are " + result + ", and " + resultTwo + msg);
+		
+		
+		/**if(userGuess2 == resultTwo)
+			msg = "\n Your Guess was right";
+			else
+				if(userGuess2 < resultTwo)
+					msg = "\n Your Guess was to low";
+				else
+					msg = "\n Your Guess was too high";
+		
+		if(userGuess3 == resultThree)
+			msg = "\n Your Guess was right";
+			else
+				if(userGuess3 < resultThree)
+					msg = "\n Your Guess was to low";
+				else
+					msg = "\n Your Guess was too high";*/
+		
+		
+		
+		
+	}
+
+}

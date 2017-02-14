@@ -1,0 +1,16 @@
+package switches;
+
+/**
+ * @author AM312792
+ *
+ */
+public class switchStatementAge 
+{
+
+	public static void main(String[] args) 
+	{
+		
+
+	}
+
+}

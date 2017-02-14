@@ -1,0 +1,28 @@
+package switches;
+
+import java.util.Scanner;
+
+/**
+ * @author AM312792
+ *Feb 13th 2017
+ */
+public class switchStatementAge 
+{
+
+	public static void main(String[] args) 
+	{
+		int user;
+		Scanner input = new Scanner(System.in);
+	
+		System.out.print("How old are you? >>>>>> ");
+		user = input.nextInt();
+		switch(user)
+		{
+		case 18:
+			System.out.println("Your 18");
+			break;
+		}
+
+	}
+
+}

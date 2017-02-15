@@ -1,0 +1,74 @@
+package pizza;
+
+import java.util.Scanner;
+
+/**
+ * @author AM312792
+ *
+ */
+public class PizzaChoice 
+{
+
+	public static void main(String[] args) 
+	{
+		String choiceYes; //user is selecting that they have made a choice
+		String size;
+		String pizzaKind = null;
+		double smallCost = 5.00;
+		double mediumCost = 7.00;
+		double largeCost = 10.00;
+		
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Would you like a pizza? Yes or No >>>> ");
+		choiceYes = input.nextLine();
+		
+		if("Yes".equals(choiceYes) || "yes".equals(choiceYes) || "Y".equals(choiceYes) || "y".equals(choiceYes))
+		{
+			System.out.print("You said " + choiceYes + " to have a pizza. \n");
+			System.out.print("Please choose a size, small, medium, or large? >>>> ");
+			size = input.nextLine(); 
+			
+			if("small".equals(size) || "medium".equals(size) || "large".equals(size) || "Small".equals(size) || "Medium".equals(size) || "Large".equals(size)
+					|| "s".equals(size) || "m".equals(size) || "l".equals(size) || "S".equals(size) || "M".equals(size) || "L".equals(size))
+			{
+				System.out.print("You said " + size + " pizza size. \n");
+				System.out.print("What kind of pizza do you want? Pepperoni, Sausage, and or Cheese? >>>> ");
+				pizzaKind = input.nextLine();
+				
+				if("Pepperoni".equals(pizzaKind) || "Sausage".equals(pizzaKind) || "Cheese".equals(pizzaKind))
+				{
+					System.out.print("You said " + pizzaKind + " that sounds delicious. \n");
+					System.out.print("Your order consists of a " + size + " pizza with the toppings of " + pizzaKind + ".");
+					
+					if("small".equals(size))
+					{
+						System.out.println("The cost of your pizza is $" + smallCost);
+					
+					}
+					
+					if("medium".equals(size))
+					{
+						System.out.println("The cost of your pizza is $" + mediumCost);
+					}
+					
+					if("large".equals(size))
+					{
+						System.out.println("The cost of your pizza is $" + largeCost);
+					}
+					
+				}
+				
+			}
+		}
+		if("No".equals(choiceYes) || "no".equals(choiceYes) || "N".equals(choiceYes)|| "n".equals(choiceYes))
+		{
+			System.out.print("You said " + choiceYes + " to haveing a pizza. \n");
+			System.out.print("I am tring to run a business and you are wasting my time! Get out!!");
+			
+		}
+	}
+
+}

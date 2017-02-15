@@ -1,0 +1,46 @@
+/**
+ * 
+ */
+package pizza;
+
+import java.util.Scanner;
+
+/**
+ * @author AM312792
+ *
+ */
+public class PizzaChoice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) 
+	{
+		String choiceYes; //user is selecting that they have made a choice
+		String size;
+		String pizzaKind = null;
+		
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Would you like a pizza? Yes or No >>>> ");
+		choiceYes = input.nextLine();
+		if("Yes".equals(choiceYes) || "yes".equals(choiceYes) || "Y".equals(choiceYes) || "y".equals(choiceYes))
+		{
+			System.out.print("You said " + choiceYes + " to have a pizza. \n");
+			System.out.print("Please choose a size, small, medium, or large? >>>> ");
+			size = input.nextLine(); //user determines size of pizza
+			if("small".equals(size) || "medium".equals(size) || "large".equals(size))
+			{
+				System.out.print("You said " + size + " pizza size. \n");
+				System.out.print("What kind of pizza do you want? Pepperoni, Sausage, and or Cheese? >>>>");
+				if("Pepperoni".equals(pizzaKind) || "Sausage".equals(pizzaKind) || "Cheesse".equals(pizzaKind))
+				{
+					System.out.print("You said " + pizzaKind + " that sounds delicious. ");
+					System.out.print("Your order consists of " + size + " pizza with the toppings of " + pizzaKind);
+				}
+			}
+		}	
+	}
+
+}

@@ -15,7 +15,7 @@ public class studentScannerSwitch
 		
 		String studentString;
 		
-		for ( ; ; ) {
+		
 			
 		
 		studentString = (String)JOptionPane.showInputDialog(null, "Please scan the student ID or book number >>>> ", "Enter User ID or book #",
@@ -86,7 +86,7 @@ public class studentScannerSwitch
 				JOptionPane.showMessageDialog(null, "That set numbers does not exist.");
 			}
 		}
-		}
+		
 		
 
 	}

@@ -1,0 +1,20 @@
+/**
+ * 
+ */
+package delgadosChoice;
+
+/**
+ * @author am312792
+ *
+ */
+public class DelgadosChoice {
+
+	/**
+	 * @param args
+	 */
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

@@ -1,0 +1,77 @@
+package gameZone;
+
+import java.util.Random;
+
+import javax.swing.JOptionPane;
+
+/**
+ * @author am312792
+ *
+ */
+public class RockPaperScissors 
+{
+
+	public static void main(String[] args) 
+	{
+		int user = 0;
+		int computer;
+		String msg = null;
+		String userPick;
+		String computerPick;
+		final int LOW = 1;
+		final int HIGH = 3;
+		Random r = new Random();
+		computer = r.nextInt(3);
+		
+		// 1 = Rock, 2 = Paper, 3 = Scissors
+		
+		for(; ;)
+		{
+		if(user == 1)
+			userPick = "Rock";
+		else
+			if(user == 2)
+				userPick = "Paper";
+			else
+				userPick = "Scissors";
+		if(computer == 1)
+			computerPick = "Rock";
+		else
+			if(computer == 2)
+				computerPick = "Paper";
+			else
+				computerPick = "Scissors";
+		if(user == 1)
+			if(computer == 1)
+				msg = "Tie";
+			else
+				if(computer == 2)
+					msg = "Computer Wins";
+				else
+					msg = "You win";
+		else
+			if(user == 2)
+				if(computer == 2)
+					msg = "Tie";
+				else
+					if(computer == 3)
+						msg = "Computer Wins";
+					else
+						msg = "You win";
+			else
+				if(user == 3)
+					if(computer == 3)
+						msg = "Tie";
+					else
+						if(computer == 1)
+							msg = "Computer Wins";
+						else
+							msg = "You win";
+				
+		
+	
+		
+		}
+	}
+
+}

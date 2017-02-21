@@ -71,16 +71,13 @@ public class DelgadosChoice
 		if(orderNumber == 1)
 		{
 			System.out.print("I see you like tacos, how many would you like >>>> ");
-			System.out.println("                                           ");
 			tacoOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("You ordered " + tacoOrdered + " Tacos " + totalPrice);
 		}
 		
 		if(orderNumber == 2)
 		{
 			System.out.print("I see you like burritos, how many would you like >>>> ");
-			System.out.println("                                           ");
 			burritoOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
 			System.out.println("                                         ");
@@ -165,9 +162,9 @@ public class DelgadosChoice
 				+ (tamalesPrice * tamalesOrdered) + (tacoSaladPrice * tacoSaladOrdered) + (chipsSalsaPrice * chipsSalsaOrdered) 
 				+ (taquitosPrice * taquitosOrdered) + (chimichangaPrice * chimichangaOrdered) + (potatoOlePrice * potatoOleOrdered);
 
-//		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " cans of Mt. Dew, " + churrosOrdered + " churros, " 
-//		+ tamalesOrdered + " tamales, " + tacoSaladOrdered + " containers of taco salad, \n" + chipsSalsaOrdered + " containers of chips & salsa, " + taquitosOrdered + " taquitos, " 
-//		+ chimichangaOrdered + " chimichangas " + potatoOleOrdered + " potato oles,");
+		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " cans of Mt. Dew, " + churrosOrdered + " churros, " 
+		+ tamalesOrdered + " tamales, " + tacoSaladOrdered + " containers of taco salad, \n" + chipsSalsaOrdered + " containers of chips & salsa, " + taquitosOrdered + " taquitos, " 
+		+ chimichangaOrdered + " chimichangas " + potatoOleOrdered + " potato oles,");
 		
 		System.out.println("                                           ");
 		

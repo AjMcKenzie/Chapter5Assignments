@@ -66,21 +66,20 @@ public class DelgadosChoice
 		System.out.print("Hello welcome to Delgados Tacos. \n");
 		System.out.print("From the menu above what would you like to order? \n");
 		System.out.print("Please select a menu number. >>>> ");
+		System.out.print("                                           ");
 		orderNumber = inputDevice.nextInt();
 		
 		if(orderNumber == 1)
 		{
 			System.out.print("I see you like tacos, how many would you like >>>> ");
-			System.out.println("                                           ");
 			tacoOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("You ordered " + tacoOrdered + " Tacos " + totalPrice);
 		}
 		
 		if(orderNumber == 2)
 		{
 			System.out.print("I see you like burritos, how many would you like >>>> ");
-			System.out.println("                                           ");
+			
 			burritoOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
 			System.out.println("                                         ");

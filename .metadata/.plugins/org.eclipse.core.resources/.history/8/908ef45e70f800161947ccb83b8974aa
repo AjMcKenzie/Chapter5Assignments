@@ -41,7 +41,7 @@ public class PizzaChoice
 					|| "s".equals(size) || "m".equals(size) || "l".equals(size) || "S".equals(size) || "M".equals(size) || "L".equals(size))
 			{
 				System.out.print("You said " + size + " pizza size. \n");
-				System.out.print("What kind of pizza do you want? Pepperoni, Sausage, or Cheese? >>>> ");
+				System.out.print("What kind of pizza do you want? Pepperoni, Sausage, and or Cheese? >>>> ");
 				pizzaKind = input.nextLine();
 				
 				//Kind / Order?
@@ -76,7 +76,7 @@ public class PizzaChoice
 		if("No".equals(choiceYes) || "no".equals(choiceYes) || "N".equals(choiceYes)|| "n".equals(choiceYes))
 		{
 			System.out.print("You said " + choiceYes + " to haveing a pizza. \n");
-			System.out.print("I am tring to run a business and you are wasting my time! Please, Get out!! >:( ");
+			System.out.print("I am tring to run a business and you are wasting my time! Get out!!");
 			
 		}
 	}

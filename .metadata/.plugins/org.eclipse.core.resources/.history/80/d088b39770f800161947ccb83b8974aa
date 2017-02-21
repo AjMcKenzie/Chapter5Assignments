@@ -76,7 +76,7 @@ public class PizzaChoice
 		if("No".equals(choiceYes) || "no".equals(choiceYes) || "N".equals(choiceYes)|| "n".equals(choiceYes))
 		{
 			System.out.print("You said " + choiceYes + " to haveing a pizza. \n");
-			System.out.print("I am tring to run a business and you are wasting my time! Please, Get out!! >:( ");
+			System.out.print("I am tring to run a business and you are wasting my time! Get out!! >:( ");
 			
 		}
 	}

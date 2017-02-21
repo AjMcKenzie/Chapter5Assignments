@@ -80,7 +80,6 @@ public class DelgadosChoice
 			System.out.print("I see you like burritos, how many would you like >>>> ");
 			burritoOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + burritoOrdered + " Burritos " + totalPrice);
 		}
 		
@@ -89,7 +88,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Mt. Dew, how many cans would you like >>>> ");
 			popOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + popOrdered + " can(s) of Mt. Dew " + totalPrice);
 		}
 		
@@ -98,7 +96,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Churros, how many would you like >>>> ");
 			churrosOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + churrosOrdered + " Churros " + totalPrice);
 		}
 		
@@ -107,7 +104,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Tamales, how many would you like >>>> ");
 			tamalesOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + tamalesOrdered + " Tamales " + totalPrice);
 		}
 		
@@ -116,7 +112,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Taco Salad, how many containers would you like >>>> ");
 			tacoSaladOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + tacoSaladOrdered + " containers of Taco Salads " + totalPrice);
 		}
 		
@@ -125,7 +120,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Chips & Salsa, how many containers would you like >>>> ");
 			chipsSalsaOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + chipsSalsaOrdered + " containers of Chips & Salsa " + totalPrice);
 		}
 		
@@ -134,7 +128,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Taquitos, how many would you like >>>> ");
 			taquitosOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + taquitosOrdered + " Taquitos " + totalPrice);
 		}
 		
@@ -143,7 +136,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Chimichanga, how many would you like >>>> ");
 			chimichangaOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + chimichangaOrdered + " Chimichangas " + totalPrice);
 		}
 		
@@ -152,7 +144,6 @@ public class DelgadosChoice
 			System.out.print("I see you like Potato Oles, how many containers of would you like >>>> ");
 			potatoOleOrdered = inputDevice.nextDouble();
 			inputDevice.nextLine();
-			System.out.println("                                         ");
 			System.out.println("You ordered " + potatoOleOrdered + " containers of Potato Oles " + totalPrice);
 		}
 		
@@ -163,7 +154,7 @@ public class DelgadosChoice
 				+ (taquitosPrice * taquitosOrdered) + (chimichangaPrice * chimichangaOrdered) + (potatoOlePrice * potatoOleOrdered);
 
 		System.out.println("You ordered " + tacoOrdered + " tacos, " + burritoOrdered + " burritos, " + popOrdered + " cans of Mt. Dew, " + churrosOrdered + " churros, " 
-		+ tamalesOrdered + " tamales, " + tacoSaladOrdered + " containers of taco salad, \n" + chipsSalsaOrdered + " containers of chips & salsa, " + taquitosOrdered + " taquitos, " 
+		+ tamalesOrdered + " tamales, " + tacoSaladOrdered + " containers of taco salad, " + chipsSalsaOrdered + " containers of chips & salsa, " + taquitosOrdered + " taquitos, " 
 		+ chimichangaOrdered + " chimichangas " + potatoOleOrdered + " potato oles,");
 		
 		System.out.println("                                           ");

@@ -1,6 +1,6 @@
 package randomGuessMatch;
 
-import java.util.Random;
+import java.util.Random; 
 import javax.swing.JOptionPane;
 /**
  * @author AM312792
@@ -12,13 +12,13 @@ public class RandomGuessMatch
 	public static void main(String[] args) 
 	{
 		Random r = new Random();
-		final int low = 100;
-		final int high = 1000;
+		final int lOW = 100;
+		final int HIGH = 1000;
 		String msg;
-		int result = r.nextInt(10) + low;
+		int result = r.nextInt(10) + LOW;
 		int userGuess;
 		
-		userGuess = Integer.parseInt(JOptionPane.showInputDialog(null, "try to guess my number between " + low + " and " + high ));
+		userGuess = Integer.parseInt(JOptionPane.showInputDialog(null, "Try to guess my number between " + LOW + " and " + HIGH ));
 		
 		if(userGuess == result)
 			msg = "\n Your Guess was Right!";
